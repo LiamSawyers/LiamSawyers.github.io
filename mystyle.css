@@ -1,0 +1,152 @@
+a:link {
+    color:#FFEECF;
+    text-decoration: none;
+    }
+    a:visited {
+    color:darkcyan;
+    text-decoration: none;
+    }
+    a:hover {
+    color:#D36582;
+    text-decoration: none;
+    }
+    a:active {
+    color:deepskyblue;
+    text-decoration: none;
+    }
+
+body {
+    background-color:#D0F1BF ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+nav {
+    font-size: 16pt;
+    border-style: double;
+    border-radius: 10px;
+    background-color:lightyellow;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    color: darkcyan;
+    text-shadow:4px 4px #FFEECF;
+}
+
+.h2a {
+    margin-top: 40px;
+}
+
+.h3a {
+    margin-top: 40px;
+    color: darkcyan;
+    text-shadow:4px 4px #FFEECF;
+}
+
+.DivA {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.space {
+    margin-top: 40px;
+}
+
+table {
+    margin-top: 45px;
+    font-size: 14pt;
+    table-layout: fixed;
+    background-color:#B6D7B9;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 4px;
+    border-style:groove;
+    border-color:#FFEECF;
+    padding: 20px 10px 20px 10px;
+}
+
+.form1 {
+    display: flex;
+    justify-content: center;
+}
+
+.img1 {
+    display: block;
+    margin-top: 40px;
+    max-width: 100%;
+}
+
+.img2 {
+    float: left;
+    margin-left: 40px;
+    max-width: 100%;
+    
+}
+
+.img3 {
+    float: right;
+    margin-right: 40px;
+    max-width: 100%;
+
+}
+
+fieldset {
+    margin: auto;
+    background-color: #FFEECF;
+    padding-top: 15px;
+}
+
+.warm {
+    color: orangered;
+    font-size: 20pt ;
+}
+
+.cold {
+    color:royalblue;
+    font-size: 20pt;
+}
+
+footer {
+    margin-top: 100px;
+    font-size: small;
+}
+
+/* responsive section */
+
+@media  screen and (min-width: 300px) and (max-width: 600px) {
+
+     body { 
+        width:fit-content;
+        
+
+    }
+
+    table { 
+        display:inline-block
+        
+    } 
+    
+    .form1 {
+        display:inline-block;
+    }
+
+    .image1, .image2, .image3 {
+        max-width: fit-content;
+    } 
+
+    .DivA {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    
+}
